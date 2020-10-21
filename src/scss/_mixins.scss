@@ -1,0 +1,55 @@
+@mixin flex($dir: row) {
+  display: flex;
+  flex-direction: $dir;
+}
+
+@mixin flex-auto {
+  flex: auto;
+}
+
+@mixin flex-center {
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+@mixin flex-space-evenly {
+  justify-content: space-evenly;
+}
+
+@mixin flex-space-around {
+  justify-content: space-around;
+}
+
+@mixin flex-space-between-center {
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin flex-space-between {
+  justify-content: space-between;
+}
+
+@mixin flex-end {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+@mixin flex-center-end {
+  align-items: center;
+  justify-content: flex-end;
+}
+
+@mixin flex-start {
+  align-items: flex-start;
+}
+
+@mixin flex-start-center {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@mixin transition() {
+  transition: all .3s cubic-bezier(.25,.8,.25,1);
+}

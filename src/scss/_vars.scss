@@ -1,0 +1,30 @@
+$light: #ffffff;
+
+$room-bg-color: #ff1039;
+$room-max-width: 300px;
+
+$room-links: lighten($light, 20%);
+$room-link-hover: rgba(0, 0, 0, 0.467);
+$room-link-active: rgba(0, 0, 0, 0.7);
+
+// Overview
+$overview-height: 100px;
+$overview-route-color: rgba(58, 54, 54, 0.704);
+
+// Chat
+$chat-height: 77px;
+$chat-btn-color: #5295e7;
+$chat-input-border: #eeeff1;
+$chat-text-color: rgba(0, 0, 0, 0.704);
+$chat-text-self-color: rgba(0, 0, 0, 0.704);
+$chat-content-height: calc(100% - #{$chat-height + $overview-height});
+
+// Content
+$content-bg-color: #eff1f2;
+
+// logic
+$login-form-elements-width: 350px;
+$login-font-size: 18px;
+
+// Fill
+$content-fill: calc(100% - #{$overview-height});
